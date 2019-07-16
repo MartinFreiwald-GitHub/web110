@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/portal.css">
   <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/forms.css">
  </head>
  <body>
      <header>
@@ -21,24 +22,21 @@
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
     </nav>
      </header>
-     
-   <main class="wrapper">
-     
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of an martin">
-       
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of an martin">
-       
-     <img class="phone" src="images/phone.jpg" alt="Photo of an martin">
        
        <h2 class="subheader">About Me</h2>
-       
-       <p><b> Hello everybody, My name is Martin Freiwald. </b> I'm at the end of the second year, as a student at Seattle Central Community College.  My graduate major is Internet Technology, Network and Design Administration & Database Design and Administration Certificate program.  I am an honor student. <strong> &ldquo; I have learned a lot of great skills.  I could have never thought of, such skills.  On my own time. &rdquo; </p>
-        
-            <!--NON-BREAKING-SPACE = &nbsp; do not use this-->
-        
-        <p> I can play rock-n-roll electric guitar and sing along sometimes.  I like learning to play Van Halen currently @ 7/4/2019. </p> <p> &ldquo; I want a Woman. &rdquo; </p> <p> That's got an exercise program down to a science!   Like me.  I enjoy finding web developement in networking and routing with infrastructure, lately. </p>
-        <P><strong> <em> I enjoy cycling, roadbike for exercise.  As well as crusing around in the great outdoors. I can surf and windsurf at most locations where, easy launch access. I don't drink or smoke.  I can fly jumbo jets and land them on Microsoft Flight Simulator X.  At 25 major US airports. Once I recieved a captains rating !!!  I want to work in the Internet Techology Industry. </em></strong></P>
-     <hr>
+        <?php
+          /*
+            * Below are 2 different forms to be re-used       
+            * 
+            * Only use one at a time, comment out the other 1!       
+            *
+            */
+          include 'includes/simple.php'; #demonstrates a simple contact form
+          //include 'includes/multiple.php';#demonstrates multiple form elements
+
+        ?>
+        <p class="clear-recaptcha"></p>  
+ 
      <footer>
       <p><small>© 2019 by <a href="contact.php">Contact (Martin Freiwald)> </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
