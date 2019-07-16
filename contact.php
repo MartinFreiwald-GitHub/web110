@@ -23,22 +23,22 @@
     </nav>
      </header>
        
-       <h2 class="subheader">About Me</h2>
-        <?php
-          /*
-            * Below are 2 different forms to be re-used       
-            * 
-            * Only use one at a time, comment out the other 1!       
-            *
-            */
-          include 'includes/simple.php'; #demonstrates a simple contact form
-          //include 'includes/multiple.php';#demonstrates multiple form elements
+    <h2 class="subheader">About Me</h2>
+      <?php
+        /*
+          * Below are 2 different forms to be re-used       
+          * 
+          * Only use one at a time, comment out the other 1!       
+          *
+          */
+        include 'includes/simple.php'; #demonstrates a simple contact form
+        //include 'includes/multiple.php';#demonstrates multiple form elements
 
-        ?>
-        <p class="clear-recaptcha"></p>  
+      ?>
+      <p class="clear-recaptcha"></p>  
  
      <footer>
-      <p><small>© 2019 by <a href="contact.php">Contact (Martin Freiwald)> </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
+      <p><small>© 2019 by <a href="contact.php">Contact (Martin Freiwald) </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
   </main>
   <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->   
@@ -49,7 +49,7 @@
             x.className += " responsive";
         } else {
             x.className = "topnav";
-        }
+      }
     }   
   </script> 
 </body>
